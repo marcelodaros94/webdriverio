@@ -13,6 +13,9 @@ class ClassPage extends Page {
         return $$('button.btn-test');
     }
 
+    get title () {
+        return $('h3');
+    }
     /*
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
